@@ -1,5 +1,6 @@
 package vista;
 
+import estudioEstructurasBasicas.ClaseEnvoltorio_Math;
 import estudioEstructurasBasicas.EjerciciosBucles;
 import estudioEstructurasBasicas.EjerciciosEstructuras;
 import estudioEstructurasBasicas.EstudioEstructurasCondicionales;
@@ -17,11 +18,14 @@ public class Main {
         // EstudioTipoDeDatos estudioTipoDeDatos=new EstudioTipoDeDatos();
         // EstudioOperadoresAritmeticos estudioOperadoresAritmeticos=new
         // EstudioOperadoresAritmeticos();
-        //EstudioEstructurasCondicionales estudioEstructurasCondicionales=new EstudioEstructurasCondicionales();
-        //EjerciciosEstructuras ejerciciosEstructuras = new EjerciciosEstructuras();
+        // EstudioEstructurasCondicionales estudioEstructurasCondicionales=new
+        // EstudioEstructurasCondicionales();
+        // EjerciciosEstructuras ejerciciosEstructuras = new EjerciciosEstructuras();
         // EjerciciosBucles ejerciciosBucles = new EjerciciosBucles();
-        //EstudioEstructurasRepeticion estudioEstructurasRepeticion=new EstudioEstructurasRepeticion();
-        EstudioPrintF estudioPrintF=new EstudioPrintF();
-        
+        // EstudioEstructurasRepeticion estudioEstructurasRepeticion=new
+        // EstudioEstructurasRepeticion();
+        //EstudioPrintF estudioPrintF = new EstudioPrintF();
+        ClaseEnvoltorio_Math claseEnvoltorio_Math = new ClaseEnvoltorio_Math();
+
     }
 }
