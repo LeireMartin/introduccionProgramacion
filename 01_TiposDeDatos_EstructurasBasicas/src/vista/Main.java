@@ -4,6 +4,7 @@ import estudioEstructurasBasicas.EjerciciosBucles;
 import estudioEstructurasBasicas.EjerciciosEstructuras;
 import estudioEstructurasBasicas.EstudioEstructurasCondicionales;
 import estudioEstructurasBasicas.EstudioEstructurasRepeticion;
+import estudioEstructurasBasicas.EstudioPrintF;
 import estudioEstructurasBasicas.EjerciciosEstructuras;
 
 public class Main {
@@ -18,7 +19,9 @@ public class Main {
         // EstudioOperadoresAritmeticos();
         //EstudioEstructurasCondicionales estudioEstructurasCondicionales=new EstudioEstructurasCondicionales();
         //EjerciciosEstructuras ejerciciosEstructuras = new EjerciciosEstructuras();
-        EjerciciosBucles ejerciciosBucles = new EjerciciosBucles();
+        // EjerciciosBucles ejerciciosBucles = new EjerciciosBucles();
         //EstudioEstructurasRepeticion estudioEstructurasRepeticion=new EstudioEstructurasRepeticion();
+        EstudioPrintF estudioPrintF=new EstudioPrintF();
+        
     }
 }
