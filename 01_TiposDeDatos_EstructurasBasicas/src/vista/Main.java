@@ -3,6 +3,7 @@ package vista;
 import estudioEstructurasBasicas.ClaseEnvoltorio_Math;
 import estudioEstructurasBasicas.EjerciciosBucles;
 import estudioEstructurasBasicas.EjerciciosEstructuras;
+import estudioEstructurasBasicas.EjerciciosMath;
 import estudioEstructurasBasicas.EstudioEstructurasCondicionales;
 import estudioEstructurasBasicas.EstudioEstructurasRepeticion;
 import estudioEstructurasBasicas.EstudioPrintF;
@@ -25,7 +26,8 @@ public class Main {
         // EstudioEstructurasRepeticion estudioEstructurasRepeticion=new
         // EstudioEstructurasRepeticion();
         //EstudioPrintF estudioPrintF = new EstudioPrintF();
-        ClaseEnvoltorio_Math claseEnvoltorio_Math = new ClaseEnvoltorio_Math();
+        //ClaseEnvoltorio_Math claseEnvoltorio_Math = new ClaseEnvoltorio_Math();
+        EjerciciosMath ejerciciosMath=new EjerciciosMath();
 
     }
 }

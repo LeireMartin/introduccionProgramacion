@@ -22,13 +22,16 @@ public class EstudioPrintF {
         System.out.printf("%s %n", nombre);
         System.out.printf("%10s %n", nombre);
         System.out.printf("%-10s %-10s %n", nombre, apell);
+        
+        
+        //X=33 ARRIBA ESTA DECLARADO
         while (x < 123) {
             contador++;
-            char c = (char) x;
-            System.out.printf("%3d : %c", x, c);
+            char c = (char) x; //ESTA SACANDO LA LETR CORRESPONDIENTE AL NUMERO SACADO
+            System.out.printf("%4d : %c", x, c);
             x++;
             if (contador == 5) {
-                System.out.println("");
+                System.out.println("");//SALTO DE LINEA ME LO PRESENTA DE 5 EN 5 EN COLUMNAS
                 contador = 0;
             }
         }
