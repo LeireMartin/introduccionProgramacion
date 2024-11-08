@@ -1,5 +1,6 @@
 package vista;
 
+import estudioArrays.EjercicioNotas;
 import estudioArrays.EjerciciosArrayUni;
 import estudioArrays.EstudioArrayBidiensionales;
 import estudioArrays.EstudioArrayUnidimensionales;
@@ -10,7 +11,8 @@ public class Main {
 
         //EstudioArrayUnidimensionales estudioArrayUnidimensionales=new EstudioArrayUnidimensionales();
         //EjerciciosArrayUni ejerciciosArrayUni=new EjerciciosArrayUni();
-        EstudioArrayBidiensionales estudioArrayBidiensionales=new EstudioArrayBidiensionales();
+        //EstudioArrayBidiensionales estudioArrayBidiensionales=new EstudioArrayBidiensionales();
+        EjercicioNotas ejercicionotas=new EjercicioNotas();
 
     }
 
