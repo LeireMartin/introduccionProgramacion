@@ -1,6 +1,7 @@
 package vista;
 
 import estudioArrays.EjerciciosArrayUni;
+import estudioArrays.EstudioArrayBidiensionales;
 import estudioArrays.EstudioArrayUnidimensionales;
 
 public class Main {
@@ -8,7 +9,9 @@ public class Main {
         System.out.println("Hola Arrays");
 
         //EstudioArrayUnidimensionales estudioArrayUnidimensionales=new EstudioArrayUnidimensionales();
-        EjerciciosArrayUni ejerciciosArrayUni=new EjerciciosArrayUni();
+        //EjerciciosArrayUni ejerciciosArrayUni=new EjerciciosArrayUni();
+        EstudioArrayBidiensionales estudioArrayBidiensionales=new EstudioArrayBidiensionales();
+
     }
 
 }
