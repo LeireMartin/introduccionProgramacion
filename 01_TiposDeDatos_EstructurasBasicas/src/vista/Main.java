@@ -6,6 +6,7 @@ import estudioEstructurasBasicas.EjerciciosEstructuras;
 import estudioEstructurasBasicas.EjerciciosMath;
 import estudioEstructurasBasicas.EstudioEstructurasCondicionales;
 import estudioEstructurasBasicas.EstudioEstructurasRepeticion;
+import estudioEstructurasBasicas.EstudioMetodos;
 import estudioEstructurasBasicas.EstudioPrintF;
 import estudioEstructurasBasicas.EjerciciosEstructuras;
 
@@ -28,6 +29,7 @@ public class Main {
         //EstudioPrintF estudioPrintF = new EstudioPrintF();
         //ClaseEnvoltorio_Math claseEnvoltorio_Math = new ClaseEnvoltorio_Math();
         EjerciciosMath ejerciciosMath=new EjerciciosMath();
+        //EstudioMetodos estudioMetodos=new EstudioMetodos();
 
     }
 }
