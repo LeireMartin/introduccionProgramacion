@@ -1,10 +1,10 @@
 package vista;
 
-import estudioArrays.CaballoAjedrez;
-import estudioArrays.Cartas;
-import estudioArrays.EjercicioArrayBi;
-import estudioArrays.EjercicioNotas;
-import estudioArrays.EjerciciosArrayUni;
+import ejercicios.CaballoAjedrez;
+import ejercicios.Cartas;
+import ejercicios.EjercicioArrayBi;
+import ejercicios.EjercicioNotas;
+import ejercicios.EjerciciosArrayUni;
 import estudioArrays.EstudioArrayBidiensionales;
 import estudioArrays.EstudioArrayUnidimensionales;
 
