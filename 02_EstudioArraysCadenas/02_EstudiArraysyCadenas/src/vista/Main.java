@@ -1,5 +1,8 @@
 package vista;
 
+import estudioArrays.CaballoAjedrez;
+import estudioArrays.Cartas;
+import estudioArrays.EjercicioArrayBi;
 import estudioArrays.EjercicioNotas;
 import estudioArrays.EjerciciosArrayUni;
 import estudioArrays.EstudioArrayBidiensionales;
@@ -12,8 +15,11 @@ public class Main {
         //EstudioArrayUnidimensionales estudioArrayUnidimensionales=new EstudioArrayUnidimensionales();
         //EjerciciosArrayUni ejerciciosArrayUni=new EjerciciosArrayUni();
         //EstudioArrayBidiensionales estudioArrayBidiensionales=new EstudioArrayBidiensionales();
-        EjercicioNotas ejercicionotas=new EjercicioNotas();
-
+        //EjercicioNotas ejercicionotas=new EjercicioNotas();
+        //EjercicioArrayBi ejercicioArrayBi=new EjercicioArrayBi();
+        //Cartas cartas=new Cartas();
+        CaballoAjedrez caballoAjedrez=new CaballoAjedrez();
+        
     }
 
 }

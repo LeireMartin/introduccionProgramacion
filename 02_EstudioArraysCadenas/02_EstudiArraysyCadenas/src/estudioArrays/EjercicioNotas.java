@@ -67,18 +67,20 @@ public class EjercicioNotas {
 
     private boolean mediaAsignatura(int[][] notas, int alumno, String[] nombres, String[] asignaturas, boolean media) {
         int suspenso=0;
-        int asignaturaTruncal=0;
-
-       
+           
         for (int f = 0; f < notas.length; f++) {
             System.out.println(asignaturas[f] + ": " + notas[f][alumno]);
             int nota = notas[f][alumno];
+            
             if (nota < 5) {
                 suspenso++;
                 media = false;
                 System.out.println("El alumno ha suspendido "+ asignaturas[f]+" con un "+ notas[f][alumno]);
             }
            
+        }
+        if ((notas[0][alumno]<5)&&(notas[1][alumno]<5)){
+            System.out.println("Ha suspendido una asignatura truncal.");
         }
     
         if (suspenso>=3){

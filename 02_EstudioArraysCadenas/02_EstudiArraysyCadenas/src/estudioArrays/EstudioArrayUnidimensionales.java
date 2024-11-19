@@ -65,7 +65,7 @@ public class EstudioArrayUnidimensionales {
         System.out.printf("Hay %d suspensos, %d aprobados, %d notables y %d sobresalientes.%n", alumnoSuspenso, bien,
                 notable, sobresaliente);
 
-        System.out.println("---PRIMITIVA---");
+    System.out.println("---PRIMITIVA---");
         int max = 6, min = 1, cant = 6;
         int[] primi = generaPrimitiva(max, min, cant);
         for (int i = 0; i < primi.length; i++) {
@@ -85,7 +85,7 @@ public class EstudioArrayUnidimensionales {
                 ale = (int) Math.floor(Math.random() * (max - min + 1) + min);
                 repetido = false;
 
-                // Check for duplicates
+                // Duplicados
                 for (int j = 0; j < i; j++) {
                     if (ale == primi[j]) {
                         repetido = true;
