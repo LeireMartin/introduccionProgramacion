@@ -112,36 +112,6 @@ public class EjercicioArrayBi {
          * diagonalPrincipal[3][3]);
          **/
 
-        /**
-         * 3.-Diseñar un programa en Java que compruebe si un array de enteros de 5x5,
-         * es un cuadrado mágico.
-         * Se considera un cuadrado mágico aquel en el que las filas, las columnas y las
-         * diagonales suman igual.
-         **/
-
-        int[][] cuadradoMagico = {  { 1, 1, 1, 1, 1 },
-                                    { 1, 1, 1, 1, 1 },
-                                    { 1, 1, 1, 1, 1 },
-                                    { 1, 1, 1, 1, 1 },
-                                    { 1, 1, 1, 1, 1 } };
-
-        int  sumafila = 0, sumacolumna = 0, sumadiagonal = 0;
-        boolean magico = false;
-
-        sumafila = sumarFilas(cuadradoMagico);
-        sumacolumna = sumarColumnas(cuadradoMagico);
-        sumadiagonal = sumarDiagonales(cuadradoMagico);
-
-        if ((sumafila == sumacolumna) && (sumacolumna == sumadiagonal)) {
-            magico = true;
-        }
-
-        if (magico) {
-            System.out.println("El arrays es un cuadrado mágico");
-        } else {
-            System.out.println("El arrays NO es un cuadrado mágico");
-        }
-
         // 4. Crea un programa que llene la matriz con el siguiente patron:
        /**  int[][] ejemplo = { { 0, 1, 2, 3, 4 },
                                 { 1, 2, 3, 4, 3 },
@@ -171,30 +141,6 @@ public class EjercicioArrayBi {
             */
     }//costructor
 
-    private int sumarDiagonales(int[][] cuadradoMagico) {
-       int suma=0;
-       for(int f=0; f<cuadradoMagico.length;f++){
-        for (int c=0; c<cuadradoMagico[f].length; c++){
-
-        }
-       }
-       return suma;
-    }
-
-    private int sumarColumnas(int[][] cuadradoMagico) {
-        int suma = 0;
-        for(int f=0; f<cuadradoMagico.length;f++){
-            for (int c=0; c<cuadradoMagico[f].length; c++){
-                
-            }
-        }
-        return suma;
-    }
-
-    private int sumarFilas(int[][] cuadradoMagico) {
-        int suma = 0;
-        // sumar todas las filas
-        return suma;
-    }
+   
 
 }

@@ -69,7 +69,6 @@ public class EstudioArrayUnidimensionales {
 
     }
 
-
     // se crea solo declarando el metodo en la linea 44
     private double calculamedia(int[] notasAsignatura, int numero) {
         double media = 0;
