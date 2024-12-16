@@ -25,7 +25,7 @@ public class FlujoDeDatos {
         String dato="";
         try {
             dato=Leer.dato();
-        } catch (IOException e) {
+        } catch (IOException |NumberFormatException e) {
            System.out.println("Error: "+e.getMessage());
         }
     }
