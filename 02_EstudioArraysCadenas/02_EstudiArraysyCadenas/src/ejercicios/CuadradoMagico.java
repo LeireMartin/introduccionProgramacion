@@ -1,6 +1,5 @@
 package ejercicios;
 
-import java.nio.channels.Pipe.SourceChannel;
 import java.util.Arrays;
 
 public class CuadradoMagico {
