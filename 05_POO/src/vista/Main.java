@@ -1,24 +1,29 @@
-
+package vista;
+import equals.EstudioEquals;
 import excepciones.CampoVacioException;
 import excepciones.DniException;
 import herencia.Consultor;
 import herencia.Empleado;
-//import modelo.Persona;
 import herencia.Trabajador;
+import modelo.Circulo;
+import modelo.Persona1;
+import modelo.Punto;
+import modelo.Rectangulo;
 
 public class Main {
 
     public static void main(String[] args) throws CampoVacioException {
         System.out.println("Programación Orientada a Objetos");
-        // estudioClasePersona();
+        //estudioClasePersona();
         // estudioConstructores();
-        // ClaseDni();
+        //ClaseDni();
         // PasoValorReferencia();
 
         // Modificadores();
         // herencia();
         // polimofifismo();
-        interfaces();
+        //interfaces();
+        EstudioEquals estudioEquals=new EstudioEquals();
     }
 
     private static void interfaces() {

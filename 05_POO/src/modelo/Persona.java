@@ -1,3 +1,4 @@
+package modelo;
 public class Persona {
 
     //atributos se declaran a nivel de clase

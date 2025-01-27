@@ -1,4 +1,4 @@
-
+package modelo;
 import excepciones.CampoVacioException;
 import excepciones.DniException;
 
@@ -19,6 +19,52 @@ public class Persona1 {
     private float peso;
 
     
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+        result = prime * result + ((apellido == null) ? 0 : apellido.hashCode());
+        result = prime * result + edad;
+        result = prime * result + altura;
+        result = prime * result + ((dni == null) ? 0 : dni.hashCode());
+        result = prime * result + Float.floatToIntBits(peso);
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Persona1 other = (Persona1) obj;
+        if (nombre == null) {
+            if (other.nombre != null)
+                return false;
+        } else if (!nombre.equals(other.nombre))
+            return false;
+        if (apellido == null) {
+            if (other.apellido != null)
+                return false;
+        } else if (!apellido.equals(other.apellido))
+            return false;
+        if (edad != other.edad)
+            return false;
+        if (altura != other.altura)
+            return false;
+        if (dni == null) {
+            if (other.dni != null)
+                return false;
+        } else if (!dni.equals(other.dni))
+            return false;
+        if (Float.floatToIntBits(peso) != Float.floatToIntBits(other.peso))
+            return false;
+        return true;
+    }
 
     public Persona1(String nombre, String apellido, int edad, int altura, String dni, float peso) throws DniException, CampoVacioException {
         this(nombre, apellido, dni);

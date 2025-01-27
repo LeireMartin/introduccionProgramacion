@@ -1,3 +1,4 @@
+package modelo;
 public class Circulo {
     private int x;
     private int y;
