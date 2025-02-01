@@ -26,9 +26,9 @@ public class Main {
         // EjerciciosBucles ejerciciosBucles = new EjerciciosBucles();
         // EstudioEstructurasRepeticion estudioEstructurasRepeticion=new
         // EstudioEstructurasRepeticion();
-        //EstudioPrintF estudioPrintF = new EstudioPrintF();
+        EstudioPrintF estudioPrintF = new EstudioPrintF();
         //ClaseEnvoltorio_Math claseEnvoltorio_Math = new ClaseEnvoltorio_Math();
-        EjerciciosMath ejerciciosMath=new EjerciciosMath();
+        //EjerciciosMath ejerciciosMath=new EjerciciosMath();
         //EstudioMetodos estudioMetodos=new EstudioMetodos();
 
     }

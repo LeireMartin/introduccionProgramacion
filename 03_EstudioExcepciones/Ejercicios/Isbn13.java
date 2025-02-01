@@ -57,12 +57,8 @@ public class Isbn13 {
     }
 
     private void comprobarIsbn(int resultado, int[] isbnInt) throws ISBNException {
-        boolean iguales = true;
-        if (isbnInt[12] != resultado)
-            iguales = false;
-
-        if (!iguales)
-            throw new ISBNException();
+        
+        if (isbnInt[12] != resultado) throw new ISBNException();
     }
 
 }

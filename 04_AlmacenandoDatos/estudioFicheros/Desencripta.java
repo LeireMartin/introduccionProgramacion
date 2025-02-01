@@ -1,7 +1,6 @@
 package estudioFicheros;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.util.Arrays;
@@ -11,18 +10,13 @@ public class Desencripta {
         File f;
         BufferedReader br;
         FileReader fr;
-        String[] alfabeto = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
-                "s", "t", "u", "v", "w", "x", "y", "z" };
-        String[] abecedarioReverso = { "z", "y", "x", "w", "v", "u", "t", "s", "r", "q", "p", "o", "n", "m", "l", "k",
-                "j", "i", "h", "g", "f", "e", "d", "c", "b", "a" };
+
         String[] mensaje;
         int[] mensajeInt;
-        String fraseDesencriptada = "";
-        String mensajeFinal = "";
-        ;
+        
         f = new File("Mensaje.txt");
 
-        try {
+        try{ 
             if (!f.exists()) {
                 System.out.println("El fichero no existe, intentelode nuevo");
                 f.createNewFile();
@@ -36,8 +30,18 @@ public class Desencripta {
             for (int i = 0; i < mensaje.length; i++) {
                 mensajeInt[i] = Integer.parseInt(mensaje[i]);
             }
+
+            
             System.out.println(Arrays.toString(mensajeInt));
             System.out.println(mensajeInt.length);
+
+            String[] alfabeto = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+                "s", "t", "u", "v", "w", "x", "y", "z" };
+            String[] abecedarioReverso = { "z", "y", "x", "w", "v", "u", "t", "s", "r", "q", "p", "o", "n", "m", "l", "k",
+                "j", "i", "h", "g", "f", "e", "d", "c", "b", "a" };
+            String fraseDesencriptada = "";
+            String mensajeFinal = "";
+        
             int numPalabras = mensajeInt[0];
             int numletras = 0;
             int cont = 0;

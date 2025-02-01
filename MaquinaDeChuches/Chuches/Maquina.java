@@ -48,19 +48,13 @@ public class Maquina {
             for (int i = 0; i < tamMatriz; i++) {
                 precioString = br.readLine().split(",");
                 precios[i] = convertirADoble(precio, precioString, tamMatriz);
-
             }
-
             // System.out.println(Arrays.deepToString(precios));
-
             for (int i = 0; i < cantidad.length; i++) {
                 cantidadeStrings = br.readLine().split(",");
                 cantidad[i] = convertirAInt(cantidades, cantidadeStrings, tamMatriz);
-
             }
-
             // System.out.println(Arrays.deepToString(cantidad));
-
             boolean encendido = true;
             do {
                 // Variables para interactuar con las chuches
@@ -147,32 +141,30 @@ public class Maquina {
 
             System.out.println("Introduzca la posición de la golosina que desea reponer: ");
 
-            
             boolean valorIncorrecto;
 
             do {
                 valorIncorrecto = false;
-                reponerGolosina = leer.next(); 
+                reponerGolosina = leer.next();
                 try {
-                    
+
                     posicion = Integer.parseInt(reponerGolosina);
-    
+
                     if (posicion < 0 || posicion > 3) {
                         throw new IndexOutOfBoundsException("La posición debe estar entre 0 y 3.");
                     }
-    
+
                     System.out.println("Posición seleccionada: " + posicion);
-    
+
                 } catch (NumberFormatException e) {
                     System.out.println("Debe ingresar un número válido.");
                     valorIncorrecto = true;
-    
+
                 } catch (IndexOutOfBoundsException e) {
                     System.out.println(e.getMessage());
                     valorIncorrecto = true;
                 }
             } while (valorIncorrecto);
-
 
             fila = posicion / 10;
             columna = posicion % 10;
@@ -197,7 +189,7 @@ public class Maquina {
             valorIncorrecto = false;
             pedirGolosina = leer.next(); // Asumimos que leer es un Scanner
             try {
-                
+
                 posicion = Integer.parseInt(pedirGolosina);
 
                 if (posicion < 0 || posicion > 3) {
